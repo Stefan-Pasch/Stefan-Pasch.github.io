@@ -17,7 +17,7 @@ Therefore, with StonkBERT, we focus on the following main questions:
 - i. Can Language-Models predict the performance of a stock **one year** after the publication of related text data?
 - ii. If yes, is it dependent on the type of document that is used in the analysis? (We investigate three types of documents that are commonly used for this purpose: **News articles, blogs, and annual company reports)**
 
-#### Getting Stock-Related Text Data and Stock Prices
+### Getting Stock-Related Text Data and Stock Prices
 
 **Stock-Related Text Data**: We scrutinize three types of company-related text data: We use a dataset on historical financial news from Gennadiyi[5]. The dataset covers company-specific news articles (henceforth “news”) and stock market opinion pieces (which we label as “blogs”). Further, we retrieved annual reports as filed with the Securities and Exchange Commission (SEC), the so-called Form-10K filings.
 
@@ -31,7 +31,7 @@ We cover articles from 2012 to 2019 and consider the 250 companies with the most
 
 As benchmarks, we also tested two more traditional text classifiers. Their approach is to first transform the text data in a term frequency matrixes (TF-IDF) and then run typical machine learning algorithms, such as Logistic Regression or XGBoost. Correspondingly, they do not capture context-based knowledge.
 
-#### Results
+### Results
 
 Our first finding is that StonkBERT consistently outperforms the traditional methods in predicting the return category, irrespective of the data source under scrutiny. In fact, in some of the cases, a random draw would have outperformed the traditional models, while the StonkBERT results are at least a little better than random with all data sources.
 
@@ -39,7 +39,7 @@ More importantly, we find that the text source has a sizable influence on the ac
 
 ![Classification](assets/img/stocknlp/classification3.jpg)
 
-#### Stock Price Performance
+### Stock Price Performance
 
 Next, we test if StonkBERT’s predictions also translate into differences in actual stock returns. To do so, we analyze the average abnormal one-year return in our news article test sample based on the predictions from StonkBERT.
 
@@ -51,20 +51,20 @@ The following figures show the average stock price development for the different
 
 We also conducted performance simulations for articles published in the year 2018 and similarly find performance differences between the predicted categories, albeit the outperformance of StonkBERT compared to the market appeared to be more modest. The firms classified as “good” returned 12.33% on average compared to 5.24% in the whole sample.
 
-#### Discussion
+### Discussion
 Though StonkBERT consistently outperformed a random classifier by a sizable margin, our results should be taken with a grain of salt. Among finance scholars the dominant theory is the efficient market hypothesis (Fama 1970[7]), which suggests that stock prices reflect all available information of the market, making it impossible to systematically outperform the market. Correspondingly, StonkBERT may not outperform the market in the long run.
 
 For example, StonkBERT’s successful prediction may be the result of our specific time period, which includes very strong outperformance of tech-based stocks, in general, that was further amplified after the Covid crisis emerged. These moment-based effects have in the past been associated with increased news coverage. Correspondingly, our model may have learned that tech-based stocks outperformed their peers during the training period and inferred this trend to continue in the future. However, a purely industry-based effect should have been detected by traditional models as well. Potentially, transformer-based models may be able to pick up more fine-grained information, for example, specific technological trends within industries (e.g. cloud computing, or machine learning). In fact, when using an explainability tool we find that StonkBERT tends to associate the word “cloud” with positive abnormal stock returns. This is in line with, for example, a report from Morgan Stanley which finds that also non-tech firms that invest heavily in digitization, data, and the cloud tend to outperform their industry peers.[8]
 
 Another interesting economic insight of our analysis is that our results suggest that news articles contain information that is the most “valuable” to an AI. Potentially, blog articles, in their speculative nature, only add noise compared to news articles, whereas the informational content of company reports may be too sparse.
 
-#### Conclusion
+### Conclusion
 
 So, can we all get rich by using transformer models and trade according to their recommendations? At first glance, the results are encouraging, as our news article-based model predicted well-performing firms fairly successfully. However, additional analyses are required to establish whether this observation holds long-term. A promising next step may be to test the model on a longer time horizon (e.g., five years). Finally, as previous work established that SEC Form-8K filings as a text basis also perform well, future work may want to investigate approaches that combine news information and these more frequent corporate disclosures to achieve even higher accuracy.
 
 **DISCLAIMERS**: The views and opinions expressed in this article are those of the authors and do not reflect any views or positions of any affiliated organization of the authors. This work is for research purposes only and does not provide any financial or trading guidance.
 
-#### References
+### References
 
 [1]Pasch, Stefan., & Ehnes, Daniel. (2022). StonkBERT: Can Language Models Predict Medium-Run Stock Price Movements?. arXiv preprint arXiv:2202.02268.
 
