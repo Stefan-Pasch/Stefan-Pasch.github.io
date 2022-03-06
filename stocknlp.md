@@ -1,7 +1,9 @@
 ---
 layout: page
 ---
-### StonkBERT: Can Language Models Predict Medium-Run Stock Price Movements?![image](https://user-images.githubusercontent.com/45234256/156928471-7bd1fee3-7b14-47d8-b7d9-641d7b8b463a.png)
+### StonkBERT: Can Language Models Predict Medium-Run Stock Price Movements?
+
+
 
 My name is Inigo Montoya. I have the following qualities:
 
