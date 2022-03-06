@@ -7,9 +7,9 @@ title: Research
 ### List of Publications
 
 
-Pasch. (2018). [Corporate Culture and Industry-Fit: A Text-Mining Approach](https://conference.iza.org/conference_files/DATA_2018/pasch_s26796.pdf). *IZA Conference Paper* 
-- Web-scraped over 800,000 employee reviews and applied text-mining techniques to construct measures of corporate culture based on free texts
-- I find that large deviations from the average industry culture are associated with worse firm performance 
+Pasch, S. (2018). [Corporate Culture and Industry-Fit: A Text-Mining Approach](https://conference.iza.org/conference_files/DATA_2018/pasch_s26796.pdf). *IZA Conference Paper* 
+
+Pasch, S., & Ehnes, D. (2020). [Implementing Corporate Culture Top-Down or Bottom-Up? Cultural Gaps Over Time and Firm Performance](https://journals.aom.org/doi/abs/10.5465/AMBPP.2020.13093abstract). *Academy of Management Proceedings*. (Vol. 2020, No. 1)
 
 
 
