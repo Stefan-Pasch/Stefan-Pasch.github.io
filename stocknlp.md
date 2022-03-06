@@ -1,10 +1,12 @@
 ---
 layout: page
+title: Stonkbert
 ---
 
-## My story
-![Drag Racing](assets/img/stonkbert_cracked.jpg)
+## Can Language Models Predict Medium-Run Stock Price Movements?
+![Stonkbert](assets/img/stocknlp/stonkbert_cracked.jpg)
 
+Article written by Daniel Ehnes and Stefan Pasch. Find the full paper [here](https://arxiv.org/abs/2202.02268)[1].
 
 My name is Inigo Montoya. I have the following qualities:
 
