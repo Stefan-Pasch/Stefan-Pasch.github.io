@@ -4,9 +4,8 @@ title: Research
 subtitle: List of Publications
 ---
 
-My name is Inigo Montoya. I have the following qualities:
 
-- I rock a great mustache
+- [Corporate Culture and Industry-Fit: A Text-Mining Approach](https://conference.iza.org/conference_files/DATA_2018/pasch_s26796.pdf).(2018). *IZA Conference Paper*
 - I'm extremely loyal to my family
 
 What else do you need?
