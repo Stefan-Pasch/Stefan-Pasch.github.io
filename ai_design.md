@@ -5,7 +5,7 @@ title: Blogs
 
 ## AI Design: Testing Vision Transformers on Design Images
 
-![design_transformers](assets/img/ai_design/design_transformers2.jpg)
+![design_transformers](assets/img/ai_design/design_transformers3.jpg)
 
 <img src="assets/img/ai_design/design_transformers2.jpg" alt="design_transformers" style="width:500px;"/>
 
