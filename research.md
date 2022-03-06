@@ -7,8 +7,8 @@ title: Research
 ### List of Publications
 
 
-Pasch, S. 
-[Corporate Culture and Industry-Fit: A Text-Mining Approach](https://conference.iza.org/conference_files/DATA_2018/pasch_s26796.pdf). 
+Pasch, S. <br />
+[Corporate Culture and Industry-Fit: A Text-Mining Approach](https://conference.iza.org/conference_files/DATA_2018/pasch_s26796.pdf). <br />
 *IZA Conference Paper*. (2018)
 
 Pasch, S., & Ehnes, D. (2020). [Implementing Corporate Culture Top-Down or Bottom-Up? Cultural Gaps Over Time and Firm Performance](https://journals.aom.org/doi/abs/10.5465/AMBPP.2020.13093abstract). *Academy of Management Proceedings*. (Vol. 2020, No. 1)
