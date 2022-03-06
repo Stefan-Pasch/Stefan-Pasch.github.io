@@ -4,8 +4,12 @@ title: Blogs
 ---
 
 ## AI Design: Testing Vision Transformers on Design Images
-This blog article is written by [Sun-Young HA](https://medium.com/@sunyoungha) & Stefan PASCH
+
 ![design_transformers](assets/img/ai_design/design_transformers2.jpg)
+
+<img src="assets/img/ai_design/design_transformers2.jpg" alt="design_transformers" style="width:200px;"/>
+
+This blog article is written by [Sun-Young HA](https://medium.com/@sunyoungha) & Stefan PASCH
 
 In recent years, advancements in artificial intelligence have been omnipresent. AI is applied in various fields and for various applications, such as *language translation, customer segmentation*, or *fraud detection*. An obvious form of AI that could support and complement the work of designers are algorithms that are able to detect images and understand various features of images with potential applications in design: For example, an AI that can classify fashion in different categories, can detect furniture in images of interior design, or classify the design style in images.
 
