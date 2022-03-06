@@ -26,3 +26,20 @@ The basis for the **visual-language model** we discuss, actually, stems from the
 
 The basic idea behind this technology is that large neural networks are trained on different language tasks, such as predicting which word belongs to a particular sentence, allowing the model to learn a general understanding of language. This “*general language understanding*” can then be applied and fine-tuned on particular problems, such as text classification.
 
+**Vision Transformers** incorporate this concept into image recognition. Here, the visual embeddings of the images, on the one hand, and the text embeddings of image captions, on the other hand, are used as inputs. Via cross-modal training, the model learns a joint understanding of text and images. Correspondingly, the model is not just able to classify images or detect objects but also to respond to specific text questions.
+
+### Visual Transformer for IKEA Data
+
+Let us see how vision transformers work in practice on a potential design application. To do so, we use an open-source framework, **transformer-explainability**, that utilizes the **LXMERT** visual transformer model and integrates an explainability interface, which highlights the image parts on which basis the model made its decision. We apply this on a **dataset of IKEA interior design images**.
+
+#### 1. Object Detection
+
+First, we test if the vision transformer can detect objects in room sceneries from IKEA. To evaluate the textual understanding, we not just ask the model to detect certain furniture types, but also to distinguish them by color. For example, the image below shows six chairs, albeit just one of them being black. When we ask the model “how many black chairs does the room have?” it actually understands that we are just interested in identifying black chairs and correctly answers “1”.
+
+![chair](assets/img/ai_design/chairs.jpg)
+
+#### 2. Detect Room-Type
+
+Next, we classified each room type of the dataset. Just by typing the question "**what kind of room is it?**"; the model understands remarkably well what kind of answers are required (living room, bedroom, kitchen etc.), though the model has not been trained as a room-classifier on this kind of dataset. The picture below illustrates this with an example. The model not just classifies the room correctly as a kitchen, but with transformer-MM-explainability, we can also learn from which features the model made this inference: Due to the oven, the kitchen island, and the kitchen sink our model thinks that the room is a kitchen.
+
+![chair](assets/img/ai_design/kitchen.png)
