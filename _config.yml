@@ -18,7 +18,7 @@ navbar-links:
   Research: "research"
   Blogs:
     - Predict Stock-Prices with NLP: "stocknlp"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Vision Transformers: "ai_design"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
