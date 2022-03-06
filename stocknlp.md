@@ -14,8 +14,8 @@ Unsurprisingly, such language models have since been applied to predict stock pr
 
 Therefore, with StonkBERT, we focus on the following main questions:
 
-- 1. Can Language-Models predict the performance of a stock **one year** after the publication of related text data?
-- 2. If yes, is it dependent on the type of document that is used in the analysis? (We investigate three types of documents that are commonly used for this purpose: **News articles, blogs, and annual company reports)**
+- i. Can Language-Models predict the performance of a stock **one year** after the publication of related text data?
+- ii. If yes, is it dependent on the type of document that is used in the analysis? (We investigate three types of documents that are commonly used for this purpose: **News articles, blogs, and annual company reports)**
 
 #### Getting Stock-Related Text Data and Stock Prices
 
