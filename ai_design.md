@@ -5,7 +5,7 @@ title: Blogs
 
 ## AI Design: Testing Vision Transformers on Design Images
 
-![design_transformers](assets/img/ai_design/design_transformers4.jpg)
+![design_transformers](assets/img/ai_design/design_transformers4.png)
 
 This blog article is written by [Sun-Young HA](https://medium.com/@sunyoungha) & Stefan PASCH
 
