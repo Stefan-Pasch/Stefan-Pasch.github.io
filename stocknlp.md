@@ -2,11 +2,12 @@
 layout: page
 title:
 ---
+
+
 ### StonkBERT: Can Language Models Predict Medium-Run Stock Price Movements?
 
-<img src="assets/img/stonkbert_cracked.jpg"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+![Drag Racing](assets/img/stonkbert_cracked.jpg)
+
 
 My name is Inigo Montoya. I have the following qualities:
 
