@@ -4,8 +4,6 @@ title:
 ---
 
 
-### StonkBERT: Can Language Models Predict Medium-Run Stock Price Movements?
-
 ![Drag Racing](assets/img/stonkbert_cracked.jpg)
 
 
