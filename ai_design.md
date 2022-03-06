@@ -43,3 +43,28 @@ First, we test if the vision transformer can detect objects in room sceneries fr
 Next, we classified each room type of the dataset. Just by typing the question "**what kind of room is it?**"; the model understands remarkably well what kind of answers are required (living room, bedroom, kitchen etc.), though the model has not been trained as a room-classifier on this kind of dataset. The picture below illustrates this with an example. The model not just classifies the room correctly as a kitchen, but with transformer-MM-explainability, we can also learn from which features the model made this inference: Due to the oven, the kitchen island, and the kitchen sink our model thinks that the room is a kitchen.
 
 ![chair](assets/img/ai_design/kitchen.png)
+
+When classifying the whole IKEA dataset, the model functions remarkably well, with an accuracy of 69% when using the initial labelling of the IKEA dataset as ground truth. Note that the dataset also contains various images, like hallways or combined eating and living rooms, that may not necessarily belong in one certain room type.
+
+#### 3. Room Features
+
+Besides classifying the rooms, we can also ask questions about design styles or certain features of a room. For example, whether the style is minimalistic or not. See below two examples. For the office shown below, the model perceives the room as minimalistic, and the explainer suggests to us that this is due to the simple desk, chair, and lamb. The living room, on the other hand, is predicted as not minimalistic and we learn that this is mainly due to the spacious couch and the various images on the wall.
+
+![chair](assets/img/ai_design/minimalistic.png)
+
+### Discussion
+Though the vision transformer model was not trained or fine-tuned for the analyzed data of interior design images, it provides a solid understanding of different types of tasks. This suggests that AI models like this could be of increasing importance for designers. For example, an AI like the one demonstrated could help furniture companies, like IKEA, to automatically analyze which kind of design features they currently offer, and which aspects might be missing. Similarly, tools like the one demonstrated can help to build up a scalable design search engine. Most search engine rely on text data, i.e., in the context of design images the descriptions given to design items or sceneries. However, customers may be interested in design features that are not given in the text descriptions, such as a minimalistic style. Moreover, there could be an avenue for designers to foster design research, form factors, or design trend.
+
+Read on [Medium](https://medium.com/@sunyoungha/ai-design-testing-vision-transformers-on-design-images-a79f60c0840a)
+
+### References
+
+[1]Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.
+
+[2]https://blog.google/products/search/search-language-understanding-bert/
+
+[3]Chefer, H., Gur, S., & Wolf, L. (2021). Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers. arXiv preprint arXiv:2103.15679.
+
+[4]Tan, H., & Bansal, M. (2019). Lxmert: Learning cross-modality encoder representations from transformers. arXiv preprint arXiv:1908.07490.
+
+[5]Tautkute, I., Możejko, A., Stokowiec, W., Trzciński, T., Brocki, Ł., & Marasek, K. (2017, September). What looks good with my sofa: Multimodal search engine for interior design. In 2017 Federated Conference on Computer Science and Information Systems (FedCSIS) (pp. 1275–1282). IEEE.
