@@ -1,9 +1,8 @@
 ---
 layout: page
-title:
 ---
 
-### My story
+## My story
 ![Drag Racing](assets/img/stonkbert_cracked.jpg)
 
 
