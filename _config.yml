@@ -16,8 +16,8 @@ author: Stefan Pasch
 navbar-links:
   About Me: "aboutme"
   Research: "research"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+  Blogs:
+    - Predict Stock-Prices with NLP: "stocknlp"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
 
