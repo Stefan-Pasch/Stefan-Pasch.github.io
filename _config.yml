@@ -19,7 +19,7 @@ navbar-links:
   Blogs:
     - Predict Stock-Prices with NLP: "stocknlp"
     - Vision Transformers: "ai_design"
-  CV: "/docs/CV_StefanPasch_V2022_04_03.pdf"
+  CV: "cv"
 
 # --- Logo --- #
 
